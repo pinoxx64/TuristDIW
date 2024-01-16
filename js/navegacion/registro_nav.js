@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     iniciar.addEventListener('click',inicio)
     registrarse.addEventListener('click',registro)
 
-    function inicio() {
+    function registro() {
         
         let nick = document.getElementById('nick').value
         localStorage.clear('nicks')
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = "../../html/inicio.html"
     }
 
-    function registro(){
-        window.location.href = "../../html/registro.html"
+    function inicio(){
+        window.location.href = "../../index.html"
     }   
 })

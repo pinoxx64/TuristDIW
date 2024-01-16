@@ -1,52 +1,71 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Topic Listing Bootstrap 5 Template</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- CSS FILES -->        
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Topic Listing Bootstrap 5 Template</title>
 
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
-                        
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS FILES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        <link href="css/templatemo-topic-listing.css" rel="stylesheet">      
-<!--
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap"
+    rel="stylesheet">
+
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="../css/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="../css/templatemo-topic-listing.css" rel="stylesheet">
+  <!--
 
 TemplateMo 590 topic listing
 
 https://templatemo.com/tm-590-topic-listing
 
 -->
-    </head>
-    <body>
-        <div class="form-outline mb-4">
-            <input type="text" id="nombre" class="form-control" />
-            <label class="form-label" for="nick1">Nombre</label>
-          </div>
-          
-          <div class="form-outline mb-4">
-            <input type="text" id="nick" class="form-control" />
-            <label class="form-label" for="nick1">Nick</label>
-          </div>
-        
-          <!-- Password input -->
-          <div class="form-outline mb-4">
-            <input type="email" id="email" class="form-control" />
-            <label class="form-label" for="email">Correo</label>
-          </div>
-        
-          <!-- Password input -->
-          <div class="form-outline mb-4">
-            <input type="password" id="password" class="form-control" />
-            <label class="form-label" for="password">Contraseña</label>
-          </div>
-    </body>
+</head>
+
+<body>
+  <main>
+    <form>
+      <div class="form-outline mb-4">
+        <input type="text" id="nombre" class="form-control" />
+        <label class="form-label" for="nick1">Nombre</label>
+      </div>
+
+      <div class="form-outline mb-4">
+        <input type="text" id="nick" class="form-control" />
+        <label class="form-label" for="nick1">Nick</label>
+      </div>
+
+      <!-- Password input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="email" class="form-control" />
+        <label class="form-label" for="email">Correo</label>
+      </div>
+
+      <!-- Password input -->
+      <div class="form-outline mb-4">
+        <input type="password" id="password" class="form-control" />
+        <label class="form-label" for="password">Contraseña</label>
+      </div>
+
+      <!-- Submit button -->
+      <button type="button" class="btn btn-primary btn-block mb-4" id="regis">Registrarse</button>
+
+      <!-- Register buttons -->
+      <div class="text-center">
+        <p>¿Estás registrado ya? <button type="button" class="btn btn-primary btn-block mb-4"
+            id="ini">Iniciar sesion</button>
+      </div>
+    </form>
+  </main>
+
+  <script type="module" src="../js/navegacion/registro_nav.js"></script>
+
+</body>
 </html>
