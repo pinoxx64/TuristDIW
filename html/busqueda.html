@@ -19,7 +19,11 @@
 
         <link href="../css/templatemo-topic-listing.css" rel="stylesheet">   
         
-        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <link href="../css/paginaBusqueda.css" rel="stylesheet">
+
+        <script src="../js/funcion/busqueda.js"></script>
+        
+
 <!--
 
 TemplateMo 590 topic listing
@@ -30,10 +34,104 @@ https://templatemo.com/tm-590-topic-listing
     </head>
     
     <body id="top" class="hero-section d-flex justify-content-center align-items-center">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="d-none d-lg-block">
+                        <a href="../index.html" class="bi bi-x-square-fill"></a>
+                    </div>
+                </div>
+                
+                <a class="navbar-brand" href="inicio.html">
+                    <i class="bi-back"></i>
+                    <span>Turist</span>
+                </a>
 
-        <main >
+                <div class="d-lg-none ms-auto me-4">
+                    <a class="navbar-icon bi-person smoothscroll"></a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="d-none d-lg-block">
+                        <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="planes-container">
+                <h1>Planes puertollano</h1>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide post">
+                            <img class="post-img" src="../images/imagenes-sitios/1501670791_201214_1502798137_noticia_normal.jpg"/>
+                            <div class="post-body">
+                                <img class="post-avatar" src="../images/fotos-perfil/IMG_7771.jpg"/>
+                                <div class="post-detail">
+                                    <h2 class="post-name">Minero</h2>
+                                    <p class="post-author">Raúl Gutiérrez Merino</p>
+                                </div>
+                                <div class="post-actions">
+                                    <a class="post-like" href="javascript:void(0)">
+                                        <i class="fas fa-heart"></i>
+                                    </a>
+                                    <button class="post-actions-controller" data-target="post1" aria-controls="post-actions-content" aria-expanded="false">
+                                        <i class="fa-solid fa-ellipsis fa-2xl"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide post">
+                            <img class="post-img" src="../images/imagenes-sitios/1501670791_201214_1502798137_noticia_normal.jpg"/>
+                            <div class="post-body">
+                                <img class="post-avatar" src="../images/fotos-perfil/IMG_7771.jpg"/>
+                                <div class="post-detail">
+                                    <h2 class="post-name">Fuente Agria</h2>
+                                    <p class="post-author">Raúl Gutiérrez Merino</p>
+                                </div>
+                                <div class="post-actions">
+                                    <a class="post-like" href="javascript:void(0)">
+                                        <i class="fas fa-heart"></i>
+                                    </a>
+                                    <button class="post-actions-controller" data-target="post1" aria-controls="post-actions-content" aria-expanded="false">
+                                        <i class="fa-solid fa-ellipsis fa-2xl"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide post">
+                            <img class="post-img" src="../images/imagenes-sitios/reloj-de-flores.jpg"/>
+                            <div class="post-body">
+                                <img class="post-avatar" src="../images/fotos-perfil/IMG_7771.jpg"/>
+                                <div class="post-detail">
+                                    <h2 class="post-name">Minero</h2>
+                                    <p class="post-author">Raúl Gutiérrez Merino</p>
+                                </div>
+                                <div class="post-actions">
+                                    <a class="post-like" href="javascript:void(0)">
+                                        <i class="fas fa-heart"></i>
+                                    </a>
+                                    <button class="post-actions-controller" data-target="post1" aria-controls="post-actions-content" aria-expanded="false">
+                                        <i class="fa-solid fa-ellipsis fa-2xl"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </section>
+        
             
-        </main>
+        
         <!-- JAVASCRIPT FILES -->
         <script src="../js/funcionamiento/jquery.min.js"></script>
         <script src="../js/funcionamiento/bootstrap.bundle.min.js"></script>
