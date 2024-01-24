@@ -13,7 +13,7 @@ body{
 }
 section{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -39,6 +39,11 @@ section{
     width: 80%;
     height: 100%;
     margin-top: 30px;
+}
+.swiper-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .swiper-scrollbar{
     --swiper-scrollbar-bottom: 0;

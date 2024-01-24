@@ -37,7 +37,7 @@ https://templatemo.com/tm-590-topic-listing
                 <div class="container">
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <div class="d-none d-lg-block">
-                            <a href="#top" class="bi bi-x-square-fill"></a>
+                            <a href="../index.html" class="bi bi-x-square-fill"></a>
                         </div>
                     </div>
                     
@@ -78,7 +78,7 @@ https://templatemo.com/tm-590-topic-listing
 
                                     <input name="keyword" type="search" class="form-control" id="keyword" placeholder="Puertollano, Madrid, Ciudad real, Alicante ..." aria-label="Search">
 
-                                    <button type="submit" class="form-control" href="carga.html">Buscar</button>
+                                    <button type="submit" class="form-control" id="bus">Buscar</button>
                                 </div>
                             </form>
                         </div>
@@ -96,6 +96,14 @@ https://templatemo.com/tm-590-topic-listing
         <script src="../js/funcionamiento/jquery.sticky.js"></script>
         <script src="../js/funcionamiento/click-scroll.js"></script>
         <script src="../js/funcionamiento/custom.js"></script>
+
+        <script>
+        $(document).ready(function(){
+            $("#bus").on("click", function(){
+                window.location.href = "carga.html";
+            });
+        });
+        </script>
         
     </body>
 </html>
