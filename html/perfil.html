@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Turist</title>
-
   <link rel="icon" type="image/png" href="../images/logo/49a540c374e5703b02660684f213af7c-logotipo-de-lugar-de-viaje-tropical.png">
+
 
   <!-- CSS FILES -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +22,9 @@
   <link href="../css/bootstrap-icons.css" rel="stylesheet">
 
   <link href="../css/templatemo-topic-listing.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   <!--
 
 TemplateMo 590 topic listing
@@ -57,16 +60,22 @@ https://templatemo.com/tm-590-topic-listing
       </div>
 
       <!-- Submit button -->
-      <button type="button" class="btn btn-primary btn-block mb-4" id="regis">Registrarse</button>
+      <button type="button" class="btn btn-primary btn-block mb-4" id="guar">Guardar</button>
 
       <!-- Register buttons -->
-      <div class="text-center">
-        <p style="color: black;">¿Estás registrado ya? <button type="button" class="btn btn-primary btn-block mb-4" id="ini">Iniciar sesion</button>
-      </div>
+      <button type="button" class="btn btn-primary btn-block mb-4" id="cance">Cancelar</button>
     </form>
   </main>
 
-  <script type="module" src="../js/navegacion/registro_nav.js"></script>
+  <script>
+    $('#guar').click(function() {
+      window.location.href = 'inicio.html';
+    });
+    $('#cance').click(function() {
+      window.location.href = 'inicio.html';
+    });
+
+  </script>
 
 </body>
 </html>

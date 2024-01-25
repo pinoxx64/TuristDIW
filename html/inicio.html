@@ -4,7 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Topic Listing Bootstrap 5 Template</title>
+        <title>Turist</title>
+        <link rel="icon" type="image/png" href="../images/logo/49a540c374e5703b02660684f213af7c-logotipo-de-lugar-de-viaje-tropical.png">
+
 
         <!-- CSS FILES -->        
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,7 +49,7 @@ https://templatemo.com/tm-590-topic-listing
                     </a>
 
                     <div class="d-lg-none ms-auto me-4">
-                        <a href="../index.html" class="navbar-icon bi-person smoothscroll"></a>
+                        <button href="perfil.html">Perfil</button>
                     </div>
     
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +58,7 @@ https://templatemo.com/tm-590-topic-listing
     
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <div class="d-none d-lg-block">
-                            <a class="navbar-icon bi-person smoothscroll"></a>
+                            <a href="perfil.html" class="navbar-icon bi-person smoothscroll"></a>
                         </div>
                     </div>
                 </div>
@@ -70,17 +72,19 @@ https://templatemo.com/tm-590-topic-listing
 
                             <h6 class="text-center">Busca una ciudad para ver sus planes</h6>
 
-                            <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
+                            <form class="custom-form mt-4 pt-2 mb-lg-0 mb-5">
                                 <div class="input-group input-group-lg">
-                                    <span class="input-group-text bi-search" id="basic-addon1">
+                                    <span class="input-group-text bi-search">
                                         
                                     </span>
 
-                                    <input name="keyword" type="search" class="form-control" id="keyword" placeholder="Puertollano, Madrid, Ciudad real, Alicante ..." aria-label="Search">
+                                    <input name="keyword" type="search" class="form-control" placeholder="Puertollano, Madrid, Ciudad real, Alicante ...">
 
-                                    <button type="submit" class="form-control" id="bus">Buscar</button>
+   
                                 </div>
                             </form>
+                            <br>
+                            <button type="submit" class="form-control" id="bus">Buscar</button>
                         </div>
                     </div>
                     <h1 class="invisible">Loading</h1><br>
@@ -103,6 +107,7 @@ https://templatemo.com/tm-590-topic-listing
                 window.location.href = "carga.html";
             });
         });
+        
         </script>
         
     </body>
